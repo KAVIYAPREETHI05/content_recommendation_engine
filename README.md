@@ -121,7 +121,9 @@ Built using chart.js and react-chartjs-2
 
 ## Test report
 
-[Download Project Documentation (PDF)](./docs/Project_Documentation.pdf)
+[Test Report PDF](https://docs.google.com/document/d/1bX6aE0Kj--KOsm3dqKDCo9azr9aJfW7r/edit?usp=sharing&ouid=109807329531465232704&rtpof=true&sd=true)
+
+[Download Project Documentation (PDF)](./docs/TestReport.pdf)
 
 
 ## Flow Diagram
