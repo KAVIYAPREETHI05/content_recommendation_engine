@@ -23,6 +23,12 @@ app.use("/api/creators", creatorRoutes); // <--- use dedicated route
 const readerRoutes = require("./routes/readerRoutes");
 app.use("/api/readers", readerRoutes);
 
+const postRoutes = require("./routes/postRoutes");
+app.use("/api/posts", postRoutes);
+app.use("/uploads", express.static("uploads"));
+
+app.use("/api/insights", require("./routes/insights"));
+
 
 // Connect to DB and start server
 connectDB();
