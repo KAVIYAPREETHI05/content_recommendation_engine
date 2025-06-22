@@ -11,7 +11,8 @@ const postSchema = new mongoose.Schema({
   mediaUrl: String, // image or video URL
   creatorId: { type: String, required: true },
   views: { type: Number, default: 0 },        // <-- ADD THIS
-  searchCount: { type: Number, default: 0 },  // <-- ADD THIS
+  searchCount: { type: Number, default: 0 },
+    
 }, { timestamps: true });
 
 

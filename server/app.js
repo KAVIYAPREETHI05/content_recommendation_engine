@@ -20,8 +20,11 @@ app.get("/", (req, res) => {
 app.use("/api", authRoutes);
 app.use("/api/creators", creatorRoutes); // <--- use dedicated route
 
+
 const readerRoutes = require("./routes/readerRoutes");
 app.use("/api/readers", readerRoutes);
+  // ✅ IMPORTANT
+
 
 const postRoutes = require("./routes/postRoutes");
 app.use("/api/posts", postRoutes);

@@ -111,6 +111,32 @@ router.get('/user-actions/:userId', async (req, res) => {
   }
 });
 
+// routes/posts.js
+router.get("/engagement/:creatorId", async (req, res) => {
+  try {
+    const posts = await Post.find({ creatorId: req.params.creatorId });
+
+    const engagementData = await Promise.all(
+      posts.map(async (post) => {
+        const likeCount = await Like.countDocuments({ postId: post._id });
+        const commentCount = await Comment.countDocuments({ postId: post._id });
+
+        return {
+          title: post.title,
+          category: post.category || "Uncategorized",
+          views: post.views || 0,
+          likes: likeCount,
+          comments: commentCount,
+        };
+      })
+    );
+
+    res.json(engagementData);
+  } catch (err) {
+    console.error("Error fetching engagement data:", err);
+    res.status(500).json({ message: "Error fetching engagement data", error: err.message });
+  }
+});
 
 // PUT /api/posts/:postId
 router.put("/:postId", async (req, res) => {
