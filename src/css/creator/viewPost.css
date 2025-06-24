@@ -1,0 +1,24 @@
+.view-post-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.view-post-container h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.view-post-container p {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.post-content {
+  margin-top: 1rem;
+  white-space: pre-wrap;
+  line-height: 1.6;
+}

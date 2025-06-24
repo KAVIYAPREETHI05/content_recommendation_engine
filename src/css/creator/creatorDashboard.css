@@ -1,0 +1,33 @@
+.dashboard-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-container h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.dashboard-actions {
+  margin: 20px 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.dashboard-actions button {
+  padding: 10px 15px;
+  background-color: #1d72b8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dashboard-actions button:hover {
+  background-color: #155a96;
+}
+

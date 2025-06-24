@@ -1,0 +1,27 @@
+.insights-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+.insights-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.chart-section {
+  margin-bottom: 2rem;
+}
+.chart-section h3 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+.recommendations-section h3 {
+  margin-top: 0;
+}
+.recommendations-section ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}

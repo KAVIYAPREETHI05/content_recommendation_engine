@@ -1,0 +1,30 @@
+.edit-post-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.edit-post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.edit-post-form input,
+.edit-post-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.update-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
