@@ -29,7 +29,6 @@ Built using **React**, **Node.js**, **Express**, and **MongoDB**, with smart ins
 - Categorize content with tags and topics
 - View engagement analytics and reader insights
 
-
 ---
 
 ### 👨‍💻 Reader Capabilities
@@ -46,7 +45,6 @@ Built using **React**, **Node.js**, **Express**, and **MongoDB**, with smart ins
 
 ``npm install``
 
-
 ### Required frontend packages
 
 ``react-router-dom`` – Routing
@@ -57,8 +55,7 @@ Built using **React**, **Node.js**, **Express**, and **MongoDB**, with smart ins
 
 ``chart.js & react-chartjs-2`` – Graphs and pie charts
 
-```npm install react-router-dom axios react-icons chart.js react-chartjs-2``
-
+```npm install react-router-dom axios react-icons chart.js react-chartjs-2```
 
 ### Start frontend app
 
@@ -66,10 +63,11 @@ Built using **React**, **Node.js**, **Express**, and **MongoDB**, with smart ins
 
 ```Frontend runs at: http://localhost:3000```
 
+---
 
 ## Backend Setup
 
-###  Initialize Node Project
+### Initialize Node Project
 
 ``npm init -y``
 
@@ -94,17 +92,18 @@ Built using **React**, **Node.js**, **Express**, and **MongoDB**, with smart ins
 ### Start backend server
 
 ``nodemon app.js``
- ``` Backend runs at: http://localhost:5000 ```
+```Backend runs at: http://localhost:5000```
 
-
+---
 
 ## 🔁 API Communication
 The frontend communicates with backend APIs via Axios using the base URL:
 
-```` REACT_APP_API_BASE_URL=http://localhost:5000```
+``` REACT_APP_API_BASE_URL=http://localhost:5000```
 
 All requests (login, signup, post creation, etc.) 
 
+---
 
 ## 📊 Visualization Features
 The platform includes:
@@ -115,20 +114,21 @@ Pie Charts (e.g., reader demographics)
 
 Built using chart.js and react-chartjs-2
 
+---
+
 ## Project Design
 
 [Figma Design](https://www.figma.com/design/jHXJ5rOIdA3SDmCEItOQ5X/content_blog?node-id=0-1&p=f&t=ldE7Hz7m8CHSn8i9-0)
 
+---
+
 ## Test report
+
+[Test Report PDF](https://docs.google.com/document/d/1bX6aE0Kj--KOsm3dqKDCo9azr9aJfW7r/edit?usp=sharing&ouid=109807329531465232704&rtpof=true&sd=true)
 
 [Download Project Documentation (PDF)](./docs/Project_Documentation.pdf)
 
+---
 
 ## Flow Diagram
 ![FlowChart](FLOWCHART-CS197.png)
-
-
-
-
-
-
